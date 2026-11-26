@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.TJLDC/inkspira-mcp",
+  "title": "Inkspira MCP",
+  "description": "Plan a tattoo with printable sizing samples, a placement preview, and prefills.",
+  "repository": {
+    "url": "https://github.com/TJLDC/inkspira-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://inkspira.de/tattoo-generator/",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://inkspira-mcp.743078294ldc.workers.dev/mcp"
+    }
+  ]
+}

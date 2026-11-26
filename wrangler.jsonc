@@ -1,0 +1,6 @@
+{
+  "name": "inkspira-mcp",
+  "main": "server.js",
+  "compatibility_date": "2026-11-26",
+  "workers_dev": true
+}
