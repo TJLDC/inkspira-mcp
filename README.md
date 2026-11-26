@@ -1,5 +1,7 @@
 # Inkspira MCP
 
+[![Inkspira MCP server](https://glama.ai/mcp/servers/TJLDC/inkspira-mcp/badges/score.svg)](https://glama.ai/mcp/servers/TJLDC/inkspira-mcp)
+
 A read-only tattoo planning server for finding printable sizing samples, opening a photo placement preview, and preparing a prefilled generator link.
 
 | Tool | Purpose |
