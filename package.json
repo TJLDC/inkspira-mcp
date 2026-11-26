@@ -1,8 +1,38 @@
 {
   "name": "inkspira-mcp",
   "version": "1.0.0",
-  "private": true,
   "type": "module",
+  "description": "Read-only MCP server for tattoo planning: style and placement options, prefilled generator links, actual-size print samples and a photo placement preview.",
+  "license": "MIT",
+  "author": "Inkspira",
+  "homepage": "https://inkspira.de/tattoo-generator/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TJLDC/inkspira-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TJLDC/inkspira-mcp/issues"
+  },
+  "bin": {
+    "inkspira-mcp": "bin/inkspira-mcp.js"
+  },
+  "files": [
+    "bin/",
+    "tools.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "modelcontextprotocol",
+    "tattoo",
+    "design-brief",
+    "inkspira"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "test": "node --test",
     "deploy": "wrangler deploy"

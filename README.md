@@ -10,6 +10,22 @@ A read-only tattoo planning server for finding printable sizing samples, opening
 
 Use Streamable HTTP at the endpoint in [server.json](server.json). The server needs no credentials. The preview tool constructs a URL locally and neither creates artwork nor fetches user images. Keep personal information out of the prompt because query parameters can appear in browser history when visitors open the link.
 
+## Run it locally
+
+The same three tools are published to npm as a stdio server, for clients that launch MCP servers as a child process:
+
+```json
+{
+  "mcpServers": {
+    "inkspira": {
+      "command": "npx",
+      "args": ["-y", "inkspira-mcp"]
+    }
+  }
+}
+```
+
 Explore the [Inkspira tattoo generator](https://inkspira.de/tattoo-generator/) and the free [A4 tattoo print samples](https://inkspira.de/tattoo-vorlagen-zum-ausdrucken/).
 
 Run `npm ci` and `npm test` locally. Set `MCP_TEST_URL` to test a deployed endpoint. Licensed under [MIT](LICENSE).
+
